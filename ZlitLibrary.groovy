@@ -14,5 +14,5 @@ def checkout(def repo, def isUseCredentials, def credentialsId){
 	println "Repo URL: " + repo[0][0]
 	println "Branch: " + repo[0][1]*/
 	//git url: repo[0][0], branch: repo[0][1], credentialsId: credentials
-	git url: 'https://github.com/Jhmmy/testrepo.git', branch: 'master', credentialsId: ''
+	bat "git clone repo[0][0]"
 }
