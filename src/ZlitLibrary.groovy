@@ -14,7 +14,7 @@ def hello(){
 //  if (!Primes.isPrime(count)){
 //    error "${count} was not prime"
 //  }
-}
+//}
 
 def sayHelloToName(def name) {
 	println "Hello " +name;
