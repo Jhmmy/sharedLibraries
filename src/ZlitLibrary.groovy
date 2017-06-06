@@ -1,9 +1,9 @@
 #!groovy
-package com.proximus.servicing;
+//package com.proximus.servicing;
 
-@Grab('org.jsoup:jsoup:1.8.1')
+/*@Grab('org.jsoup:jsoup:1.8.1')
 import org.jsoup.nodes.Document;
-
+*/
 def hello(){
     println "hello test"
 }
