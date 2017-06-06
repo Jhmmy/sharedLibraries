@@ -1,25 +1,19 @@
 #!groovy
-//package com.proximus.servicing;
 
-/*@Grab('org.jsoup:jsoup:1.8.1')
-import org.jsoup.nodes.Document;
-*/
+//@Grab('org.jsoup:jsoup:1.8.1')
+//import org.jsoup.nodes.Document;
+
 def hello(){
     println "hello test"
 }
 
 
-/*@Grab('org.apache.commons:commons-math3:3.4.1')
-import org.apache.commons.math3.primes.Primes
-def parallelize(int count){
-  if (!Primes.isPrime(count)){
-    error "${count} was not prime"
-  }
-}*/
-
-def hello(){
-    print "hello"
-    
+//@Grab('org.apache.commons:commons-math3:3.4.1')
+//import org.apache.commons.math3.primes.Primes
+//def parallelize(int count){
+//  if (!Primes.isPrime(count)){
+//    error "${count} was not prime"
+//  }
 }
 
 def sayHelloToName(def name) {
